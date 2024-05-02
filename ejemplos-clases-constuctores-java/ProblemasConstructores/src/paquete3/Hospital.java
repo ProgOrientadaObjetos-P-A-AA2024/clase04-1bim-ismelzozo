@@ -66,6 +66,8 @@ public class Hospital {
 
         String cadena = String.format("Nombre: %s\nCiudad: %s\nNumero de Doctores: %s\nNumero de "
                 + "Enfermeros: %s\n", obtenerNombre(),
+                // al ingresarle solo cuidad sin ponerle obtener retornaria cuidad por q el valor ya retorna por el valor asignado 
+                // por el metodo.
                 ciudad, obtenerNumeroDoctores(), obtenerNumeroEnfermeros());
         return cadena;
     }

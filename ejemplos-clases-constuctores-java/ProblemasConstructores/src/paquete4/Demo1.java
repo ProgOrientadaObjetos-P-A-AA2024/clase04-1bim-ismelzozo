@@ -2,20 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package paquete3;
+package paquete4;
 
 /**
  *
  * @author User
  */
-public class Principal {
+public class Demo1 {
     public static void main(String[] args) {
-        //  en esta clase de tipo main la clase computadora no posee ningun constructor y
-        // esta usando el constructor por defecto 
         
-        Computadora computadoratrabajo = new Computadora();
-        
-        
-        
+        String cadena1 = "Hola";
+        String cadena2 = "Mundo";
+        String mensaje = String.format("%s\n\n%s\n", cadena1, cadena2);
+        System.out.println(mensaje);
     }
 }
